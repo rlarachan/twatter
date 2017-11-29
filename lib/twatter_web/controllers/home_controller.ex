@@ -1,4 +1,4 @@
-defmodule TwatterWeb.PageController do
+defmodule TwatterWeb.HomeController do
   use TwatterWeb, :controller
 
   def index(conn, _params) do
