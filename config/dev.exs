@@ -37,7 +37,7 @@ config :twatter, TwatterWeb.Endpoint,
       ~r{priv/static/.*(js|css|png|jpeg|jpg|gif|svg)$},
       ~r{priv/gettext/.*(po)$},
       ~r{lib/twatter_web/views/.*(ex)$},
-      ~r{lib/twatter_web/templates/.*(eex)$}
+      ~r{lib/twatter_web/templates/.*(eex|pug)$}
     ]
   ]
 

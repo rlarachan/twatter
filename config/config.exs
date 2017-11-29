@@ -17,6 +17,10 @@ config :twatter, TwatterWeb.Endpoint,
   pubsub: [name: Twatter.PubSub,
            adapter: Phoenix.PubSub.PG2]
 
+# Template Engines
+config :phoenix, :template_engines,
+  pug: PhoenixExpug.Engine
+
 # Configures Elixir's Logger
 config :logger, :console,
   format: "$time $metadata[$level] $message\n",
