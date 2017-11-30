@@ -1,3 +1,3 @@
-defmodule TwatterWeb.PageViewTest do
+defmodule TwatterWeb.HomeViewTest do
   use TwatterWeb.ConnCase, async: true
 end
